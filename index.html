@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/21a20cf332.js" crossorigin="anonymous"></script>
+<title>Chippewa Park</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light text-dark navbar-light py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Chippewa Park</a>
+            <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#park_info" class="nav-link">Park Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                 </ul>
+             </div>   
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="text-dark p-lg-0 p-md-5 text-center text-sm-start p-3 mb-5">
+        <div class="row-md col sm">
+            <h1 class="pt-5"> 
+                <span>W</span>
+                <span>E</span>
+                <span>L</span>
+                <span>C</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+                <span>&nbsp</span>
+                <span>T</span>
+                <span>O</span>
+                <span>&nbsp</span>
+                <span>C</span>
+                <span>H</span>
+                <span>I</span>
+                <span>P</span>
+                <span>P</span>
+                <span>E</span>
+                <span>W</span>
+                <span>A</span>
+                <span>&nbsp</span>
+                <span>P</span>
+                <span>A</span>
+                <span>R</span>
+                <span>K</span></h1>
+        <div class="park_background d-flex">
+            <img src="static/park_entrance.png" width="100%" alt="" class="park">
+        </div>
+                <div class="d-flex flex-column bd-highlight mb-3">
+                    <div class="history d-flex justify-content-center p-2 bd-highlight" id="park_info">
+                        Chippewa Park experience is unlike any other: a slow-paced and relaxing drive revealing<br>
+                        stunning long-range vistas and close-up views of the rugged mountains and pastoral<br> landscapes of 
+                        the Appalachian Highlands. The Parkway meanders for 469 miles,<br> protecting a diversity of plants 
+                        and animals, and providing opportunities for enjoying all<br> that makes this region of the country so 
+                        special.
+                    </div>
+                    <div class="map-background">
+                        <div class="d-flex justify-content-center">
+                            <img src="static/map.png" alt="map" class="map">
+                         </div>
+                    </div>
+                </div>
+    </section>
+    <section id="gallery" class="p-10 p-lg-0 lg-10 text-center text-sm-start shadow-lg">
+        <div class="container p-5">
+            <h2 class="text-center p-5">Things to Do:</h2>
+            <div class="row g-4 p-4">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/basketball_court.jpg" alt="basketball_court" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/food_truck.jpg" alt="food_truck" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/trail.jpg" alt="trail" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/tennis_court.jpg" alt="tennis_court" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/frisbee.jpg" alt="frisbee" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/festival.jpg" alt="festival" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/river.jpg" alt="river" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="static/skating.jpg" alt="skating" class="img-fluid shadow-lg p-0">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-dark d-flex flex-row pt-4" id="contact">
+            <div class="p-1 ">
+                <h4>Contact Us:</h4>
+                <div class="info-details py-1">
+                    <a><i class="fa-sharp fa-solid fa-location-dot"></i>
+                    Chippewa, NC 28177 United States</a>
+                </div>
+                <div class="info-details py-1">
+                    <a><i class="fa-regular fa-envelope"></i>
+                    example@example.com</a>
+                </div>
+                <div class="info-details py-1">
+                    <a><i class="fa-regular fa-mobile"></i>
+                    Call Us: 555-555-5555</a>
+                </div>
+            </div> 
+            <div class="pt-1">
+                <h4>Social</h4>
+                <div class="social-details py-1">
+                    <a href=""><i class="fa-brands fa-facebook"></i>
+                    Facebook
+                    </a>
+                </div>
+                <div class="social-details py-1">
+                    <a href=""><i class="fa-brands fa-twitter"></i>
+                    Twitter
+                    </a>
+                </div>
+                <div class="social-details py-1">
+                    <a href="#"><i class="fa-brands fa-youtube"></i>
+                    Youtube
+                    </a>
+                </div>
+                <div class="social-details py-1">
+                    <a href="#"><i class="fa-brands fa-instagram"></i>
+                    Instagram
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
